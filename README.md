@@ -1,8 +1,6 @@
 # MaltheAA.github.io
-My website
+Min website
 
-Work in progress!
-
-Go to current websites:
+Gå til website hub:
 <br>
-[Gå til hjemmesider](Hjemmeside/index.html)
+[Gå til website hub](Hjemmeside/index.html)
