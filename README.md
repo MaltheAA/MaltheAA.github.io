@@ -5,7 +5,7 @@ Work in progress!
 
 Go to current websites:
 <br>
-Min Profil: [Gå til Profil](hjemmeside)
+Min Profil: [Gå til Profil](Hjemmeside)
 <br>
 Min Opskrift: [Gå til Opskrift](opskrift)
 <br>
