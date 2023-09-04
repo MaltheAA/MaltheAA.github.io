@@ -5,7 +5,7 @@ Work in progress!
 
 Go to current websites:
 <br>
-Min Profil: [Min Profil](profil.html)
+Min Profil: [Min Profil](Hjemmeside)
 <br>
 Min Opskrift: <a href="opskrift.html">Gå til opskrift</a>
 <br>
