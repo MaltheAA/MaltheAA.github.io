@@ -5,8 +5,8 @@ Work in progress!
 
 Go to current websites:
 <br>
-Min Profil: [Gå til Profil](Hjemmeside)
+Min Profil: [Gå til Profil](Hjemmeside/profil.html)
 <br>
-Min Opskrift: [Gå til Opskrift](opskrift)
+Min Opskrift: [Gå til Opskrift](Hjemmeside/opskrift.html)
 <br>
-Terraria Calamity guide: [Gå til Terraria Calamity guide](terraria calamity guide)
+Terraria Calamity guide: [Gå til Terraria Calamity guide](Hjemmeside/terraria%20calamity%20guide.html)
