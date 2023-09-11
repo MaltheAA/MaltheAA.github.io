@@ -3,6 +3,18 @@
 <html>
 <head>
 <style>
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+
+}
+
+.profile {
+    grid-column: 1 / 1;
+}
+
 p {
     text-align: center;
     color: white
@@ -44,8 +56,8 @@ a {
 <h1>Velkommen til min websites hub.</h1>
 <p>Her er der links der vil tage dig til mine forskellige websites.</p>
 
-<div>
-<h3>Min Profil</h3>
+
+<div class="profil"><h3>Min Profil</h3>
 <p>Her er min første website, hvor du kan se noget info om mig.</p>
 <a href="profil.html">Gå til min profil</a>
 <br>
