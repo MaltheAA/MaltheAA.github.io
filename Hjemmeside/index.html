@@ -4,13 +4,6 @@
 <head>
 <style>
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 10px;
-
-}
-
 .profil {
     grid-column: 1 / 1;
 }
@@ -36,7 +29,12 @@ body {
     background-color:rgb(20, 19, 19);
 }
 
-.grid-container > div {
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'header header header'
+        'profil opskrift guide';
+    grid-gap: 10px;
     background-color: rgb(70, 70, 181, 0.5);
     background-size: 5px;
     border-style: solid;
@@ -47,17 +45,23 @@ body {
 a {
     color: white;
 }
+
+.item1 { grid-area: header; }
+.item2 { grid-area: profil; }
+.item3 { grid-area: opskrift; }
+.item4 { grid-area: guide; }
+
 </style>
 
 </head>
 
 <body>
 
-<h1>Velkommen til min websites hub.</h1>
+<div class="item1"><h1>Velkommen til min websites hub.</h1>
 <p>Her er der links der vil tage dig til mine forskellige websites.</p>
+</div>
 
-
-<div class="profil"><h3>Min Profil</h3>
+<div class="item2"><h3>Min Profil</h3>
 <p>Her er min første website, hvor du kan se noget info om mig.</p>
 <a href="profil.html">Gå til min profil</a>
 <br>
@@ -66,7 +70,7 @@ a {
 <br>
 
 <div>
-<h3>Min Opskrift</h3>
+<div class="item3"><h3>Min Opskrift</h3>
 <p>Her er en website med en opskrift på småkager, som er min yndlingskage!</p>
 <a href="opskrift.html">Gå til min opskrift</a>
 <br>
@@ -75,7 +79,7 @@ a {
 <br>
 
 <div>
-<h3>Terraria Calamity guide</h3>
+<div class="item4"><h3>Terraria Calamity guide</h3>
 <p>Dette er en website jeg lavede for sjov, fordi jeg synes programmering er sjovt.</p>
 <a href="terraria calamity guide.html">Gå til Terraria Calamity guide</a>
 </div>
